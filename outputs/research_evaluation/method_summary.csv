@@ -1,0 +1,6 @@
+method,n_test_cases,selection_accuracy,correct_cases,mean_absolute_coefficient_error,coefficient_error_n,historical_recommendation_coverage,fallback_count,reference_labels
+fixed_pearson,180,0.5,90,0.13627042421969804,180,,,"{'pearson': 36, 'spearman': 36}"
+fixed_spearman,180,0.5,90,0.06994657166321037,180,,,"{'pearson': 36, 'spearman': 36}"
+skew_heuristic,180,0.8166666666666667,147,0.12576560084291596,180,,,"{'pearson': 36, 'spearman': 36}"
+task_majority_fallback,180,0.8166666666666667,147,0.12576560084291596,180,0.0,180,"{'pearson': 36, 'spearman': 36}"
+contextual_memory,180,0.9777777777777777,176,0.06904188079665834,180,1.0,0,"{'pearson': 36, 'spearman': 36}"

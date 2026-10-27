@@ -1,0 +1,7 @@
+held_out_family,reference_method,n_folds,n_test_cases,fixed_pearson_accuracy,fixed_spearman_accuracy,skew_heuristic_accuracy,dataset_history_fallback_accuracy,global_majority_heuristic_fallback_accuracy,contextual_memory_accuracy,contextual_coverage,contextual_fallbacks
+linear_clean,pearson,5,150,1.0,0.0,1.0,1.0,0.0,0.9,1.0,0
+linear_missing,pearson,5,150,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0
+linear_small_sample,pearson,5,150,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0
+monotonic_exponential,spearman,5,150,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0
+monotonic_cubic,spearman,5,150,0.0,1.0,0.6,0.6,0.0,0.72,1.0,0
+monotonic_with_outliers,spearman,5,150,0.0,1.0,0.24666666666666667,0.24666666666666667,0.0,0.42,1.0,0

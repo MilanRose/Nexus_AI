@@ -1,0 +1,149 @@
+{
+  "n_rows": 891,
+  "n_cols": 12,
+  "columns": [
+    "PassengerId",
+    "Survived",
+    "Pclass",
+    "Name",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Ticket",
+    "Fare",
+    "Cabin",
+    "Embarked"
+  ],
+  "dtypes": {
+    "PassengerId": "int64",
+    "Survived": "int64",
+    "Pclass": "int64",
+    "Name": "str",
+    "Sex": "str",
+    "Age": "float64",
+    "SibSp": "int64",
+    "Parch": "int64",
+    "Ticket": "str",
+    "Fare": "float64",
+    "Cabin": "str",
+    "Embarked": "str"
+  },
+  "numeric_columns": [
+    "PassengerId",
+    "Survived",
+    "Pclass",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare"
+  ],
+  "categorical_columns": [
+    "Name",
+    "Sex",
+    "Ticket",
+    "Cabin",
+    "Embarked"
+  ],
+  "missing_values": {
+    "PassengerId": 0,
+    "Survived": 0,
+    "Pclass": 0,
+    "Name": 0,
+    "Sex": 0,
+    "Age": 177,
+    "SibSp": 0,
+    "Parch": 0,
+    "Ticket": 0,
+    "Fare": 0,
+    "Cabin": 687,
+    "Embarked": 2
+  },
+  "missing_pct": {
+    "PassengerId": 0.0,
+    "Survived": 0.0,
+    "Pclass": 0.0,
+    "Name": 0.0,
+    "Sex": 0.0,
+    "Age": 19.87,
+    "SibSp": 0.0,
+    "Parch": 0.0,
+    "Ticket": 0.0,
+    "Fare": 0.0,
+    "Cabin": 77.1,
+    "Embarked": 0.22
+  },
+  "duplicate_rows": 0,
+  "numeric_summary": {
+    "PassengerId": {
+      "count": 891.0,
+      "mean": 446.0,
+      "std": 257.3538420152301,
+      "min": 1.0,
+      "25%": 223.5,
+      "50%": 446.0,
+      "75%": 668.5,
+      "max": 891.0
+    },
+    "Survived": {
+      "count": 891.0,
+      "mean": 0.3838383838383838,
+      "std": 0.4865924542648575,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "Pclass": {
+      "count": 891.0,
+      "mean": 2.308641975308642,
+      "std": 0.836071240977049,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 3.0,
+      "max": 3.0
+    },
+    "Age": {
+      "count": 714.0,
+      "mean": 29.69911764705882,
+      "std": 14.526497332334042,
+      "min": 0.42,
+      "25%": 20.125,
+      "50%": 28.0,
+      "75%": 38.0,
+      "max": 80.0
+    },
+    "SibSp": {
+      "count": 891.0,
+      "mean": 0.5230078563411896,
+      "std": 1.1027434322934317,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 8.0
+    },
+    "Parch": {
+      "count": 891.0,
+      "mean": 0.38159371492704824,
+      "std": 0.8060572211299483,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 6.0
+    },
+    "Fare": {
+      "count": 891.0,
+      "mean": 32.204207968574636,
+      "std": 49.6934285971809,
+      "min": 0.0,
+      "25%": 7.9104,
+      "50%": 14.4542,
+      "75%": 31.0,
+      "max": 512.3292
+    }
+  }
+}

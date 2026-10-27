@@ -1,0 +1,22 @@
+{
+  "agent": "DataCleaningAgent",
+  "task": "data_cleaning",
+  "source_dataset": "sales.csv",
+  "cleaned_dataset": "sales.csv",
+  "source_sha256": "d07dbe9c9f841f19d6d0e37bac73cebfbe408643fc30ff0763c58ae90773c6e3",
+  "input_shape": [
+    100,
+    14
+  ],
+  "output_shape": [
+    100,
+    14
+  ],
+  "duplicate_rows_removed": 0,
+  "all_empty_columns_removed": [],
+  "column_names_trimmed": [],
+  "infinite_values_converted_to_missing": 0,
+  "missing_values_preserved_for_eda": true,
+  "imputation_policy": "No dataset-wide imputation was performed. EDA retains missingness; the ML preprocessing pipeline fits imputers on training data only.",
+  "cleaned_csv_path": "C:\\Users\\milan\\Downloads\\adaptive-multi-agent-data-analysis-uiux-updated\\adaptive-multi-agent-data-analysis-uiux\\outputs\\cleaned_datasets\\d07dbe9c9f841f19\\sales.csv"
+}

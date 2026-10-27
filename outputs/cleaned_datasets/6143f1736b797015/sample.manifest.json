@@ -1,0 +1,29 @@
+{
+  "agent": "DataCleaningAgent",
+  "task": "data_cleaning",
+  "source_dataset": "sample.csv",
+  "cleaned_dataset": "sample.csv",
+  "source_sha256": "6143f1736b797015d4435f361cc927091c7498df1d0c7b127ac1905df2e09f85",
+  "input_shape": [
+    100,
+    7
+  ],
+  "output_shape": [
+    99,
+    6
+  ],
+  "duplicate_rows_removed": 1,
+  "all_empty_columns_removed": [
+    "all_empty"
+  ],
+  "column_names_trimmed": [
+    {
+      "from": " x ",
+      "to": "x"
+    }
+  ],
+  "infinite_values_converted_to_missing": 0,
+  "missing_values_preserved_for_eda": true,
+  "imputation_policy": "No dataset-wide imputation was performed. EDA retains missingness; the ML preprocessing pipeline fits imputers on training data only.",
+  "cleaned_csv_path": "/mnt/data/nexus-uiux-work/outputs/cleaned_datasets/6143f1736b797015/sample.csv"
+}
